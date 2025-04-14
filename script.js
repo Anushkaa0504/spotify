@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "For Our Friendship", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "It all started with this", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Whenever I See You", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "To make her happy!", filePath:"C:\Users\ANUSHKA\Desktop\New folder (2)\songs\4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "LOVELOVELOVE", filePath:"C:\Users\ANUSHKA\Desktop\New folder (2)\songs\5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Afterall!!!", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Hugs To You", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Letsgooooooooooo", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "-Sorry Cutiee", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\8.mp3", coverPath: "covers/9.jpg"},
-    {songName: "UwU", filePath: "C:\Users\ANUSHKA\Desktop\New folder (2)\songs\8.mp3", coverPath: "covers/10.jpg"},
+    {songName: "For Our Friendship", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "It all started with this", filePath: "2.mp3", coverPath: "2.jpg"},
+    {songName: "Whenever I See You", filePath: "3.mp3", coverPath: "3.jpg"},
+    {songName: "To make her happy!", filePath:"4.mp3", coverPath: "4.jpg"},
+    {songName: "LOVELOVELOVE", filePath:"5.mp3", coverPath: "5.jpg"},
+    {songName: "Afterall!!!", filePath: "6.mp3", coverPath: "6.jpg"},
+    {songName: "Hugs To You", filePath: "7.mp3", coverPath: "7.jpg"},
+    {songName: "Letsgooooooooooo", filePath: "8.mp3", coverPath: "8.jpg"},
+    {songName: "-Sorry Cutiee", filePath: "8.mp3", coverPath: "9.jpg"},
+    {songName: "UwU", filePath: "8.mp3", coverPath: "10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
